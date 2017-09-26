@@ -1,0 +1,4 @@
+/Users/lixinyu/dev/workspace_sts/framework/framework-mq/framework-mq-kafka/src/main/java/com/vcredit/framework/interceptor/KafKaSendAdvice.java
+/Users/lixinyu/dev/workspace_sts/framework/framework-mq/framework-mq-kafka/src/main/java/com/vcredit/framework/kafka/KafKaProcess.java
+/Users/lixinyu/dev/workspace_sts/framework/framework-mq/framework-mq-kafka/src/main/java/com/vcredit/framework/kafka/KafKaProcessListener.java
+/Users/lixinyu/dev/workspace_sts/framework/framework-mq/framework-mq-kafka/src/main/java/com/vcredit/framework/kafka/IKafkaProcessListener.java

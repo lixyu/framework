@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+	<!ELEMENT config (analyzes?,packages?) >   
+	<!ELEMENT analyzes (analyze*) >
+	<!ELEMENT analyze (filter?,datas) > 
+	<!ELEMENT packages (package*)>
+	<!ELEMENT package (filter?,datas)>
+	<!ELEMENT filter  (#PCDATA) > 
+	<!ELEMENT datas (data+) > 
+	<!ELEMENT data (#PCDATA) > 
+	
+	<!ATTLIST config code-type CDATA  #REQUIRED > 
+	<!ATTLIST analyze class CDATA  #REQUIRED split CDATA  #REQUIRED > 
+	<!ATTLIST package class CDATA  #REQUIRED split CDATA  #REQUIRED > 
+	<!ATTLIST filter class CDATA  #REQUIRED > 
+	<!ATTLIST data field CDATA  #REQUIRED index CDATA  #REQUIRED type CDATA  #IMPLIED formatter CDATA  #IMPLIED> 
