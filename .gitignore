@@ -1,0 +1,4 @@
+
+framework-*/target/*
+framework-*/.settings/*
+framework-*/.classpath
